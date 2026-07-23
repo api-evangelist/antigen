@@ -1,7 +1,24 @@
 aid: antigen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/antigen.png
 name: Antigen
-description: Antigen is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Antigen is an AI-powered continuous offensive security platform for the enterprise.
+  It deploys autonomous AI penetration-testing agents against production systems every night,
+  maps and exploits the full attack surface, and pairs the automated testing with a monthly
+  human red-team assessment. Findings ship with reproduction steps and remediation guidance
+  delivered directly into engineering tools such as GitHub and Linear. Antigen serves financial
+  services, healthcare, retail, and government sectors, and is a Y Combinator (Fall 2025)
+  company backed by Lightspeed, DST Global, and Susa Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/antigen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +31,32 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Penetration Testing
+- Offensive Security
+- Red Team
+- Artificial Intelligence
+- Vulnerability Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/antigen-domain-security.yml
+- type: Website
+  url: https://antigen.sh/
+- type: Login
+  url: https://platform.antigen.sh/
+- type: Blog
+  url: https://antigen.sh/research
+- type: Support
+  url: https://antigen.sh/demo
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

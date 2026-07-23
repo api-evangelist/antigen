@@ -1,0 +1,14 @@
+{
+  "repo": "antigen",
+  "feeds": [
+    {
+      "source": "https://platform.antigen.sh/",
+      "feed_url": "https://platform.antigen.sh/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
